@@ -1,0 +1,221 @@
+body {
+	font-size: 16px;
+	background-color: #61122f;
+	color: #fff;
+	font-family: 'Oxygen' , sans-serif;
+
+}
+
+#header-nav{
+	background-color: #f6b319;
+	border-radius: 0px;
+	border:0px;
+}
+
+#logo-img{
+	background-image: url('logo.jpg');
+	background-repeat: no-repeat;
+	background-size: 150px 150px;
+	border-radius: 100px;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px -10px;
+
+}
+
+.navbar-brand img{
+	height: 25px;
+	border-radius: 25px;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar_brand p span{
+	vertical-align: middle;
+}
+#nav-list a{
+	color: #951C49;
+	text-align: center;
+}
+#nav-list a:hover{
+	background-color: #E7E7E7;
+}
+#nav-list a span{
+	font-size: 1.8em;
+}
+#phone{
+	margin-top: 5px;
+}
+#phone a{
+	color: #951C49;
+	padding-bottom: 0px;
+}
+#phone div{
+	color: #557c3e;
+	text-align: right;
+	padding-right: 15px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+
+#menu-tile,#special-tile,#map-tile {
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border:2px solid #3F0C1F;
+	overflow: hidden;
+}
+
+#menu-tile:hover,#special-tile:hover,#map-tile:hover {
+	box-shadow: 0 1px 5px #cccccc;
+}
+
+#menu-tile{
+	background: url('menu-tile.jpg') no-repeat;
+	background-position: center;
+}
+
+#special-tile{
+	background:url('specials-tile.jpg') no-repeat;
+	background-position: center;
+}
+
+#menu-tile span,#special-tile span,#map-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+@media(min-width: 1200px) {
+	.container .jumbotron{
+		background: url('jumbotron_1200.jpg');
+		height:675px;
+		box-shadow: 0 0 50px #3F0C1F;
+		border:2px solid #3F0C1F;
+	}
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+
+	#logo-img {
+		background-image: url('logo.jpg');
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 100px;
+		height: 100px;
+		margin: 5px 5px 5px 0;
+	}
+
+	.container .jumbotron{
+		background: url('jumbotron_992.jpg');
+		height:558px;
+		box-shadow: 0 0 50px #3F0C1F;
+		border:2px solid #3F0C1F;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+
+	.container .jumbotron{
+		background: url('jumbotron_768.jpg');
+		height:432px;
+		box-shadow: 0 0 50px #3F0C1F;
+		border:2px solid #3F0C1F;
+	}
+}
+
+@media(max-width: 767px){
+	.navbar-brand{
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1{
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+	.navbar-brand p{
+		
+		font-size: .6em;
+		margin-top: 12px;
+	}
+	.navbar-brand p img { /*ye certification ke barabar waali image hai */
+		height: 20px;
+	}
+	#collapsable-nav a {
+		font-size: 1.2em;
+	}
+	#collapsable-nav a span {
+		font-size: 1em;
+		margin-right: 5px;
+	}
+	 #call-btn > a {
+	 	font-size: 1.5em;
+	 	display: block;
+	 	margin: 0 20px;
+	 	padding: 10px;
+	 	border: 2px solid #fff;
+	 	background-color: #f6b319;
+	 	color: #951c49;
+    }
+    .container .jumbotron{
+    	margin-top: 30px;
+    	padding: 0;
+		box-shadow: 0 0 50px #3F0C1F;
+		border:2px solid #3F0C1F;
+	}
+}
+
+
+
+
+
+
+/*#call-btn{
+	background-color: #f6b319;
+	margin-right: 70px;
+	margin-left: 70px;
+	text-align: center;
+	margin-bottom: 20px;
+	border: 3px solid white;
+}
+#call-btn a{
+	font-size: 20px;
+	color: #951C49;
+}
+
+#call-btn a span{
+	margin-right: 5px;
+}*/
